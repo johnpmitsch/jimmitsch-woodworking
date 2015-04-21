@@ -1,0 +1,22 @@
+// Place all the styles related to the Store controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.productImage {
+    overflow: hidden;
+    width:  200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.productImage img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+a.addCart {
+  color: #fff;
+  &:visited {
+    color: #fff;
+  }
+}

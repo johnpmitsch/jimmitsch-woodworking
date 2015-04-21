@@ -10,4 +10,6 @@ Product.create!(title: 'Chair', description: "Excellent chair, made from the fin
 Product.create!(title: 'Desk', description: "Perfect for students, made from Oak",
                 image_url:'http://www.officesupermarket.co.uk/images/products/Cotswold%20Wooden%20Desk_A_SS-1.jpg', price: 149.99)
 Product.create!(title: 'Table', description: "Gather around this table, made from the finest Pine",
-                image_url:'http://reclaimedwooddesk.net/wp-content/uploads/2013/08/How-To-Make-Your-Own-Reclaimed-Wood-Desk.jpg', price: 199.99)      
+                image_url:'http://reclaimedwooddesk.net/wp-content/uploads/2013/08/How-To-Make-Your-Own-Reclaimed-Wood-Desk.jpg', price: 199.99)
+Product.create!(title: 'Table', description: "Gather around this table, made from the finest Pine",
+                image_url:'http://reclaimedwooddesk.net/wp-content/uploads/2013/08/How-To-Make-Your-Own-Reclaimed-Wood-Desk.jpg', price: 199.99)
