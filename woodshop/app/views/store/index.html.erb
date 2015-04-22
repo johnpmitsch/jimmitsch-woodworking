@@ -13,7 +13,7 @@
           <h3 class="text-center"><%= product.title %></h3>
           <p class="text-center"><%= product.description %></p>
           <p class="text-center"><%= sprintf("$%0.02f", product.price) %></p>
-          <p class="text-center"><a href="#" class="btn btn-primary addCart" role="button">Add to Cart</a></p>
+          <p class="text-center"><%= button_to 'Add to Cart', line_items_path(product_id: product), class: "btn btn-primary addCart" %></p>
         </div>
       </div>
     <% end %>
